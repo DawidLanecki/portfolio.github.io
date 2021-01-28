@@ -211,7 +211,7 @@ h2
     height:100%;
     width:55px;
     border:0px;
-    background-image:url('delete.png');
+    background-image:url('img/delete.png');
     background-size:cover;
     background-repeat: no-repeat;
 }
