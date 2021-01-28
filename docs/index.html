@@ -81,6 +81,7 @@
 </div>
 <div id="db_background"><h2>Wypisywanie danych z bazy danych</h2>
 <div id="top">
+<!--
 <table>
 <tr>
     <th>id_zamowienia</th>
@@ -89,7 +90,7 @@
     <th>data</th>
     <th>status</th>
 </tr>
-<!--
+
 <?php 
 $conn = mysqli_connect("localhost","root","","ksiegarnia") or die ("Nie można znaleźć bazy danych!");
 $query = mysqli_query($conn,"select * from zamowienia");
