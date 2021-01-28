@@ -89,6 +89,7 @@
     <th>data</th>
     <th>status</th>
 </tr>
+
 <?php 
 $conn = mysqli_connect("localhost","root","","ksiegarnia") or die ("Nie można znaleźć bazy danych!");
 $query = mysqli_query($conn,"select * from zamowienia");

@@ -82,34 +82,8 @@
 <div id="db_background"><h2>Wypisywanie danych z bazy danych</h2>
 <div id="top">
 <!--
-<table>                                          Komentarz ponieważ github nie łaczy się z baza danych, w razie czego w folderze jest ksiegarnia.sql
-<tr>
-    <th>id_zamowienia</th>
-    <th>id_klienta</th>
-    <th>id_ksiazki</th>
-    <th>data</th>
-    <th>status</th>
-</tr>
-
-<?php 
-$conn = mysqli_connect("localhost","root","","ksiegarnia") or die ("Nie można znaleźć bazy danych!");
-$query = mysqli_query($conn,"select * from zamowienia");
-
-while($row = mysqli_fetch_assoc($query))
-{
-    print "
-    <tr>
-    <td>".$row['idzamowienia']."</td>
-    <td>".$row['idklienta']."</td>
-    <td>".$row['idksiazki']."</td>
-    <td>".$row['data']."</td>
-    <td>".$row['status']."</td>
-    </tr>
-    ";
-}
-$conn -> close();
-?>-->
-</table>
+<table>                                          Komentarz ponieważ github nie łaczy się z baza danych, w razie czego w folderze jest plik ksiegarnia.sql oraz index.php
+-->
 </div>
 
 
@@ -127,7 +101,7 @@ dawid199ro@gmail.com
 
 <a href="mailto:dawid199ro@gmail.com" target="_blank"><img src="img/mail.png" width="40" height="40" class="circle" style="left:15%"></a>
 <a href="https://www.facebook.com/dawid.lanecki/" target="_blank"><img src="img/facebook.png" width="40" height="40" class="circle" style="left:35%"></a>
-<a href="https://github.com" target="_blank"><img src="img/github.png" width="40" height="40" class="circle"style="left:55%"></a>
+<a href="https://github.com/DawidLanecki/portfolio.github.io/tree/master/docs" target="_blank"><img src="img/github.png" width="40" height="40" class="circle"style="left:55%"></a>
 </div>
 
 </div>
